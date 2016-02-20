@@ -1,3 +1,18 @@
 ---
 # comment for jekyll
 ---
+body {
+  font-family: 'Comic Sans MS','Comic Sans','Chalkboard SE',Chalkboard,'ChalkboardSE-Regular','Marker Felt',Papyrus,fantasy,cursive,sans-serif;
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.images {
+  width: 100%;
+  display: flex;
+  img {
+    width: 100%;
+    height: auto;
+    object-fit: scale-down;
+  }
+}

@@ -9,7 +9,7 @@ title: trump.js
 description: MAKE THE WEB GREAT AGAIN
 # the url this will be published at
 url: https://bullg.it/trump.js/
-baseurl: trump.js
+baseurl: /trump.js/
 # the theme colour
 color: '#FF0000'
 # location of some files
