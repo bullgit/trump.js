@@ -1,0 +1,22 @@
+{
+  "name": "trump.js",
+  "version": "1.0.0",
+  "description": "MAKE THE WEB GREAT AGAIN (replaces all images not on the same host)",
+  "main": "trump.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bullgit/trump.js.git"
+  },
+  "keywords": [
+    "trump",
+    "fun",
+    "bullgit",
+    "images"
+  ],
+  "author": "Haroen Viaene <hello@haroen.me>",
+  "license": "CC-BY-4.0",
+  "bugs": {
+    "url": "https://github.com/bullgit/trump.js/issues"
+  },
+  "homepage": "https://bullg.it/trump.js/"
+}
