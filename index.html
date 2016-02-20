@@ -8,6 +8,12 @@ layout: default
 
 <p>look what <a href="vanilla.html">this</a> page looks like <a href="trump.html">with trump.js enabled</a>!</p>
 
+{% capture trump %}
+{% include_relative src/trump.min.js %}
+{% endcapture %}
+
+<p>Install this as a <a href="javascript:(function(){ {{trump | strip_newlines}} })();">bookmarklet</a></p>
+
 <footer>
     <p>A <a href="https://bullg.it">bullgit</a> project. Find this on <a href="https://github.com/bullgit/trump.js/">github</a>.</p>
 </footer>
