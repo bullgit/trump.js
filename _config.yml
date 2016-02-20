@@ -1,0 +1,20 @@
+# the language
+lang: en
+# author info
+author:
+  name: bullgit
+  twitter: '@bullgit'
+# title and description
+title: trump.js
+description: MAKE THE WEB GREAT AGAIN
+# the url this will be published at
+url: https://bullg.it/trump.js/
+baseurl: trump.js
+# the theme colour
+color: '#FF0000'
+# location of some files
+css: src/style.css
+favicon: https://bullg.it/media/pixels/favicon.png
+#configuration
+sass:
+  style: compressed

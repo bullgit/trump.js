@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<!--
+  {{site.description}}
+  @author {{site.author.name}} <{{site.author.email}}>
+-->
+<html lang="{{site.lang}}">
+<head>
+  <title> {{site.title}} </title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-title" content="{{site.title}}" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="white-translucent" />
+  <meta name="theme-color" content="{{site.color}}">
+  {% if site.css %}<link rel="stylesheet" href="{{site.baseurl}}{{site.css}}" />{% endif %}
+  <meta property="og:url" content="{{site.url}}{{site.baseurl}}" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="{{site.title}}" />
+  <meta property="og:description" content="{{site.description}}" />
+  <meta property="og:image" content="{{site.url}}{{site.baseurl}}{{site.favicon}}" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="{{site.author.twitter}}" />
+  <meta name="twitter:title" content="{{site.title}}" />
+  <meta name="twitter:description" content="{{site.description}}" />
+  <meta name="twitter:image" content="{{site.url}}{{site.baseurl}}{{site.favicon}}" />
+  <link rel="apple-touch-icon" href="{{site.baseurl}}{{site.favicon}}" />
+  <link rel="icon" type="image/png" href="{{site.baseurl}}{{site.favicon}}" />
+</head>
